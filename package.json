@@ -1,0 +1,29 @@
+{
+  "name": "system-import-doesnt-resolve",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeldenning/system-import-doesnt-resolve.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeldenning/system-import-doesnt-resolve/issues"
+  },
+  "homepage": "https://github.com/joeldenning/system-import-doesnt-resolve#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "jspm": "^0.17.0-beta.29"
+  },
+  "jspm": {
+    "name": "system-import-doesnt-resolve",
+    "main": "system-import-doesnt-resolve.js",
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.16"
+    }
+  }
+}
